@@ -1,0 +1,102 @@
+package Primeiros_conhecimentos;
+
+import java.util.Locale;
+
+public class Saida_de_dados {
+
+	public static void main(String[] args) {
+
+		// ------------------ Utilizando o println acontece uma quebra de linha ------------------
+		
+		
+		System.out.println("Olá mundo");
+		System.out.println("Bom dia!!");
+//====================================================================================================================
+
+		
+		// ------------------ Para continuar na mesma linha, usa-se somente o print ------------------
+		
+		
+		System.out.print("Olá mundo, ");
+		System.out.println("Bom dia!!");
+//====================================================================================================================
+		
+		
+		// ------------------ Usando variáveis ------------------
+		
+		
+		int y = 32;
+		double x = 10.3547;
+		
+		System.out.println(y);
+		System.out.println(x);
+//====================================================================================================================
+		
+		
+		// ------------------ Delimitar casas decimais ------------------
+		
+		
+		// Onde, no print se usa printf. O "f" é a abreviação de formatado. Entre parênteses e aspas, se usa o %.2 pra definir 2 
+		//casas decimais, %.4  pra definir 4 casas decimais etc.. Após isso, usa-se o %n ou \n par quebra de linha.
+		
+		double a = 12.4523;
+		double a1 = 12.4535;
+		
+		System.out.printf("%.2f%n", a);   
+		System.out.printf("%.4f\n", a1);
+//====================================================================================================================
+
+		// ------------------ Configurando o delimitador de casas decimais, pra aceitar "." ou "," ------------------
+		
+		
+		// A depender da configuração da máquina, inglês ou português, o console irá ler de uma forma. Sendo a "," pro padrão
+		//português e o "." no padrão inglês. 
+		// Para resolver, se utilizando do ponto ao invés de virgula, usa-se o comando [ Locale.setDefault(locale.US); ]
+		
+		//OBS¹:. Para funcionar o comando de localização, é necessário importar esse configurador com [ import java.util.Locale; ]
+		
+		//OBS²:. O comando de cofiguração, sempre será acima do System.out.printf(...);
+		
+		
+		double b = 13.56478;
+		
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.2f%n", b);
+		
+	
+//====================================================================================================================
+
+		// ------------------ Concatenar vários elementos no mesmo comando de escrita ------------------
+		
+		
+		// Regra geral para print e println: elemento1 + elemento2 + elemento3 + ... + elementoN 
+		
+		//Exemplo: System.out.println("RESULTADO = " + x + " METROS");
+		
+		double c = 14.564;
+		
+		System.out.println("RESULTADO = " + c + " METROS");
+		
+		
+		//Exemplo de regra geral para printf: "TEXTO1" %f TEXTO2 %f TEXTO3", variável1, variavel2
+		
+		System.out.printf("RESULTADO = %.2f Metros\n", c);   // Onde %2f = ponto flutuante e delimitação de casas decimais
+															 // \n = quebra de linha
+		
+		
+		//Exemplo de regra geral para printf e  usando vários tipos de variáveis: 
+		//"TEXTO1" %f TEXTO2 %f TEXTO3", variável1, variavel2
+		
+		// OBS¹: Neste específico utilizamos marcadores, onde: %f é o ponto flutuante, %d numeros inteiros, %s textos \n quebra linha
+		
+		String nome = "Maria";
+		int idade = 29;
+		double renda = 4000.0;
+		
+		System.out.printf("%s tem %d anos e ganha R$ %.2f reais\n", nome, idade, renda);
+		
+		
+		
+	}
+
+}

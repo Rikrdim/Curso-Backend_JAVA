@@ -1,0 +1,47 @@
+package Primeiros_conhecimentos;
+
+public class Saida_de_dados {
+
+	public static void main(String[] args) {
+
+		//Utilizando o println acontece uma quebra de linha
+		
+		System.out.println("Olá mundo");
+		System.out.println("Bom dia!!");
+//====================================================================================================================
+
+		
+		//Para continuar na mesma linha, usa-se somente o print
+		
+		System.out.print("Olá mundo, ");
+		System.out.println("Bom dia!!");
+//====================================================================================================================
+		
+		
+		//Usando variáveis.
+		
+		int y = 32;
+		double x = 10.3547;
+		
+		System.out.println(y);
+		System.out.println(x);
+//====================================================================================================================
+		
+		
+		//Delimitar casas decimais
+		
+		//Onde, no print se usa printf. O "f" é a abreviação de formatado. Entre parênteses e aspas, se usa o %.2 pra definir 2 
+		//casas decimais, %.4  pra definir 4 casas decimais etc.. Após isso, usa-se o %n ou \n par quebra de linha.
+		
+		double a = 12.4523;
+		double a1 = 12.4535;
+		
+		System.out.printf("%.2f%n", a);   
+		System.out.printf("%.2f\n", a1);
+//====================================================================================================================
+
+		
+		
+	}
+
+}
