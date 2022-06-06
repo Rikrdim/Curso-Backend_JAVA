@@ -1,0 +1,23 @@
+package Estruturas_condicionais;
+
+public class _02_Expressoes_Logicas {
+
+	public static void main(String[] args) {
+		// Expressões Lógicas
+		
+		// OPERADOR                SIGNIFICADO
+		
+		//    &&                       E
+		//	  ||                       OU
+		//	  !                        NÃO
+
+
+//*****************************************************************************
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package Estruturas_condicionais;
+
+public class _01_Expressoes_comparativas {
+
+	public static void main(String[] args) {
+		// Expressões comparativas
+		
+				// OPERADOR                SIGNIFICADO
+				
+				//    >                       Maior
+				//	  <                       Menor
+				//	  >=                  Maior ou igual
+				//	  <=                  Menor ou igual
+				//	  ==					  Igual
+				//	  !=                    Diferente
+
+				// ******************************************************************
+				
+				//EXEMPLO
+				
+				// Supondo que x = 5 Então responda: x > 0 | x == 3 | 10 <= 30 | x != 2
+
+	}
+
+}
