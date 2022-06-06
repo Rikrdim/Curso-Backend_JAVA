@@ -1,0 +1,30 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class Exerc_Estrutura_de_dados {
+
+	public static void main(String[] args) {
+		// 1) Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma
+		//    mensagem explicativa.
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int valor1 = sc.nextInt();
+		int valor2 = sc.nextInt();
+		
+		int soma = valor1 + valor2;
+				
+		System.out.println("SOMA = " + soma);
+		
+		sc.close();
+		
+//**************************************************************************************************************************
+
+		// 1)
+		//    
+		
+	}
+
+}
