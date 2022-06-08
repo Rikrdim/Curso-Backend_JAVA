@@ -29,16 +29,25 @@ public class Exerc_If_Else {
 		System.out.println("Digite o número");
 		prog1 = sc.nextInt();
 		
-		if(prog1 % 2 == 0) {             //A forma de verificar se o número é par ou impar, usa o %2. Geralmente é igualado a 0
-			System.out.println("Par");
-		}
-		else {
-			System.out.println("ímpar");
-		}
-		
-				
 		sc.close();
-	
-		}
+//*****************************************************************************************************
+		
+		//Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
+		
+		//int prog1;
+		
+		//Scanner sc_1 = new Scanner(System.in);
+		
+		//System.out.println("Digite o número");
+		//prog1 = sc_1.nextInt();
+		
+		//if(prog1 % 2 == 0) {
+			//System.out.println("Par");
+		//}
+		//else {
+			//System.out.println("Ímpar");
+		//}
+		//sc_1.close();
+	}
 
 }

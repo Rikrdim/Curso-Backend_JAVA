@@ -29,7 +29,7 @@ public class Exerc_If_Else {
 		System.out.println("Digite o número");
 		prog1 = sc.nextInt();
 		
-		if(prog1 % 2 == 0) {             //A forma de verificar se o número é par ou impar, usa o %2. Geralmente é igualado a 0
+		if(prog1 % 2 == 0) {
 			System.out.println("Par");
 		}
 		else {
