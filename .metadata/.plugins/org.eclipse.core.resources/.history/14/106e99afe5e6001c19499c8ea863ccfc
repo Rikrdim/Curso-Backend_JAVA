@@ -137,7 +137,7 @@ public class _03_If_Else {
 		//	  <comando5>
 		//	  <comando6>
 		//  	 }                             
-		// }              Desta forma, a estrutura de comando, se manterá sempre numa mesma linha e organizada.                     
+		// }              Desta forma, a estrutura de comando, se manterá sempre numa mesma linha.                     
 		
 	}
 

@@ -18,9 +18,9 @@ public class _03_If_Else {
 		
 		//FORMATO
 		
-		// if ( <condição1> ) {      
-		//    <comando1>      
-        //	  <comando2>      TUDO O QUE ESTIVER DENTRO DAS CHAVES É UM BLOCO DE COMANDO
+		// if ( <condição> ) {      
+		//    <condição1>      
+        //	  <condição1>      TUDO O QUE ESTIVER DENTRO DAS CHAVES É UM BLOCO DE COMANDO
 		// }                       
 		
 		//Exemplo prático
@@ -45,13 +45,13 @@ public class _03_If_Else {
 		
 		//FORMATO
 		
-		// if ( <condição1> ) {      
-		//    <comando1>      
-        //	  <comando2>     
+		// if ( <condição> ) {      
+		//    <condição1>      
+        //	  <condição1>     
 		// }
 		// else {
-		//	  <comando3>      
-        //	  <comando4>
+		//	  <condição3>      
+        //	  <condição4>
 		// }
 		
 		//Exemplo prático [ Utilizando o Scanner, que é uma estrutura de entrada de dados]
@@ -83,61 +83,16 @@ public class _03_If_Else {
 		
 		//FORMATO
 		
-		// if ( <condição1> ) {                        abre chave1
-				//    <comando1>      
-		        //	  <comando2>     
-				// }                                   fecha chave1
-				// else {                              abre chave2
-				//	    if(condição2){                 abre chave3
-		        //	  		<comando3>
-		     	//    		<comando4>                                      //atentar para abertura e fechamento de chaves
-				//		 }                             fecha chave2
-				//		 else{                         abre chave4
-				//			<comando5>
-				//			<comando6>
-				//  	 }                             fecha chave3
-				// }                                   fecha chave4
+		// if ( <condição> ) {      
+				//    <condição1>      
+		        //	  <condição1>     
+				// }
+				// else {
+				//	  <condição3>      
+		        //	  <condição4>
+				// }
 		
 		
-		//Exemplo prático
-		
-		Scanner sc_1 = new Scanner(System.in);      
-		int hora1;
-		
-		System.out.println("Quantas horas?");
-		hora1 = sc_1.nextInt();
-		
-		if(hora1 < 12){                       
-			System.out.println("Bom dia");
-		}
-		else {                                
-			if(hora1 < 18){
-				System.out.println("Boa tarde");
-			}
-			else {
-				System.out.println("Boa noite");
-			}
-		}
-		sc_1.close();
-		
-		
-		// OBSERVAÇÃO: No encadeamento a outra opção de montar a estrutura, é mantendo o if da terceira condição, na mesma linha do
-		// else. Desta forma:
-		
-		
-		// if ( <condição1> ) {                       
-		//    <comando1>      
-        //	  <comando2>     
-		// }                                   
-		// else if(condição2){                                         
-        //	  <comando3>
-     	//    <comando4>                                     
-		//		 }                            
-		//	else{                         
-		//	  <comando5>
-		//	  <comando6>
-		//  	 }                             
-		// }              Desta forma, a estrutura de comando, se manterá sempre numa mesma linha e organizada.                     
 		
 	}
 

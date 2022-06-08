@@ -101,11 +101,11 @@ public class _03_If_Else {
 		
 		//Exemplo prático
 		
-		Scanner sc_1 = new Scanner(System.in);      
+		Scanner sc1 = new Scanner(System.in);      
 		int hora1;
 		
 		System.out.println("Quantas horas?");
-		hora1 = sc_1.nextInt();
+		hora1 = sc1.nextInt();
 		
 		if(hora1 < 12){                       
 			System.out.println("Bom dia");
@@ -118,26 +118,7 @@ public class _03_If_Else {
 				System.out.println("Boa noite");
 			}
 		}
-		sc_1.close();
-		
-		
-		// OBSERVAÇÃO: No encadeamento a outra opção de montar a estrutura, é mantendo o if da terceira condição, na mesma linha do
-		// else. Desta forma:
-		
-		
-		// if ( <condição1> ) {                       
-		//    <comando1>      
-        //	  <comando2>     
-		// }                                   
-		// else if(condição2){                                         
-        //	  <comando3>
-     	//    <comando4>                                     
-		//		 }                            
-		//	else{                         
-		//	  <comando5>
-		//	  <comando6>
-		//  	 }                             
-		// }              Desta forma, a estrutura de comando, se manterá sempre numa mesma linha e organizada.                     
+		sc1.close();
 		
 	}
 
