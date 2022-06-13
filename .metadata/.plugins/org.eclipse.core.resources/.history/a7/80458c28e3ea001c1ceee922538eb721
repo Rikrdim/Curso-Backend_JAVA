@@ -1,0 +1,10 @@
+package _02_Estruturas_Condicionais;
+
+public class _05_Switch_case {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

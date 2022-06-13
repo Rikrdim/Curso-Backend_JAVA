@@ -1,0 +1,10 @@
+package _02_Estruturas_Condicionais;
+
+public class _04_Operadores_de_atribuicao_cumulativas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

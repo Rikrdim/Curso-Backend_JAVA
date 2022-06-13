@@ -1,0 +1,18 @@
+package _02_Estruturas_Condicionais;
+
+public class _03_Operadores_de_atribuicao_cumulativas {
+
+	public static void main(String[] args) {
+		// Operadores de atribuição cumulativa
+					                                  
+			                                                   
+				// PARA O CÓDIGO     TRADUÇÃO ( É a mesma coisa)
+				//                                        
+				//      a += b;         a = a + b; ( Ou seja, variável a recebe o que já tinha na variável a + variável b )           
+				//	    a -= b;         a = a - b; ( Ou seja, variável a recebe o que já tinha na variável a - variável b )          
+				//	    a *= b;         a = a * b; ( Ou seja, variável a recebe o que já tinha na variável a * variável b )          
+		        //      a /= b;         a = a / b; ( Ou seja, variável a recebe o que já tinha na variável a / variável b )              
+				//      a %= b;         a = a % b;
+	}
+
+}

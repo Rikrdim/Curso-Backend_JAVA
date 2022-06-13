@@ -1,0 +1,144 @@
+package _02_Estruturas_Condicionais;
+
+import java.util.Scanner;
+
+public class _04_If_Else {
+
+	public static void main(String[] args) {
+		
+	//  Estrutura SIMPLES: para uso do If e Else: Inicia com o if (tradução: SE), entre PARENTESES() inclui a condição, que pode 
+		// ser uma expressão comparativa ou lógica e entre CHAVES{} o bloco de comando a ser executado, se acondição for verdadeira.
+		// Se a condição for falsa, o bloco de comando é pulado.
+		
+		
+		// REGRA GERAL: Trata apenas 1 possibilidade
+		//              Se a condição for VERDADEIRA, será executado o comando que estiver entre chaves.
+		//              Se a condição for FALSA, o bloco de comando ou a condição falsa será pulada.
+		
+		
+		//FORMATO
+		
+		// if ( <condição1> ) {      
+		//    <comando1>      
+        //	  <comando2>      TUDO O QUE ESTIVER DENTRO DAS CHAVES É UM BLOCO DE COMANDO
+		// }                       
+		
+		//Exemplo prático
+		int x_eco = 5;
+		
+		System.out.println("Bom dia");
+		
+		if(x_eco < 0) {                      
+			System.out.println("Boa tarde");   // condição falsa, pois 5 é maior que zero. Logo esta condição não será executada.
+		}
+		
+		System.out.println("Boa noite");
+		
+		
+		
+	//  Estrutura COMPOSTA: Se inicia igual a estrutura simples, mas nesta tem o acrescimo do ELSE(tradução: se NÃO).
+		
+		// REGRA GERAL: Trata 2 possíveis possibilidades
+		//              Verdadeiro executa somente o bloco IF
+		//              FALSO executa somente o bloco ELSE
+		
+		
+		//FORMATO
+		
+		// if ( <condição1> ) {      
+		//    <comando1>      
+        //	  <comando2>     
+		// }
+		// else {
+		//	  <comando3>      
+        //	  <comando4>
+		// }
+		
+		//Exemplo prático [ Utilizando o Scanner, que é uma estrutura de entrada de dados]
+		
+		Scanner sc = new Scanner(System.in);  //Sanner para perguntar Quantas horas, antes de executar a condição      
+		int hora;
+		
+		System.out.println("Quantas horas?");
+		hora = sc.nextInt();
+		
+		if(hora < 12){                        //IF pra executar a condição verdadeira
+			System.out.println("Bom dia");
+		}
+		else {                                //ELSE pra executar a condição falsa
+			System.out.println("Boa tarde");
+		}
+		sc.close();
+		
+		
+		
+	//  Estrutura COMPOSTA tratando com 3 possibilidades : Mesmo formato do if(){}else{}. Mas acrescenta dentro do else{} 
+		//outra condição if(){}
+		
+		// Essa tratativa, se chama ENCADEAMENTO DE ESTRUTURA.
+		
+			// REGRA GERAL: Trata 3 ou mais possíveis possibilidades
+			//              Executa as condições de verdadeiro e falso e dentro da condição falsa, executa a terceira condição
+			//                                                                                                        verdadeira
+		
+		//FORMATO
+		
+		// if ( <condição1> ) {                        abre chave1
+				//    <comando1>      
+		        //	  <comando2>     
+				// }                                   fecha chave1
+				// else {                              abre chave2
+				//	    if(condição2){                 abre chave3
+		        //	  		<comando3>
+		     	//    		<comando4>                                      //atentar para abertura e fechamento de chaves
+				//		 }                             fecha chave2
+				//		 else{                         abre chave4
+				//			<comando5>
+				//			<comando6>
+				//  	 }                             fecha chave3
+				// }                                   fecha chave4
+		
+		
+		//Exemplo prático
+		
+		Scanner sc_1 = new Scanner(System.in);      
+		int hora1;
+		
+		System.out.println("Quantas horas?");
+		hora1 = sc_1.nextInt();
+		
+		if(hora1 < 12){                       
+			System.out.println("Bom dia");
+		}
+		else {                                
+			if(hora1 < 18){
+				System.out.println("Boa tarde");
+			}
+			else {
+				System.out.println("Boa noite");
+			}
+		}
+		sc_1.close();
+		
+		
+		// OBSERVAÇÃO: No encadeamento a outra opção de montar a estrutura, é mantendo o if da terceira condição, na mesma linha do
+		// else. Desta forma:
+		
+		
+		// if ( <condição1> ) {                       
+		//    <comando1>      
+        //	  <comando2>     
+		// }                                   
+		// else if(condição2){                                         
+        //	  <comando3>
+     	//    <comando4>                                     
+		//		 }                            
+		//	else{                         
+		//	  <comando5>
+		//	  <comando6>
+		//  	 }                             
+		// }              Desta forma, a estrutura de comando, se manterá sempre numa mesma linha e organizada.                     
+		
+	}
+
+}

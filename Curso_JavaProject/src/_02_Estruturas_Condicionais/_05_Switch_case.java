@@ -1,0 +1,80 @@
+package _02_Estruturas_Condicionais;
+
+import java.util.Scanner;
+
+public class _05_Switch_case {
+
+	public static void main(String[] args) {
+		
+		// A estrutura switch-case é usada quando se tem várias opções de fluxo a serem tratadas com base no valor de uma variável,
+		// ao invés de várias estruturas if-else encadeadas.
+		
+		// Ou seja, o Switch-case funciona parecido como o if e else, porém ele é baseado no valor de uma expressão, que virá
+		// entre parentese. No caso, a variável a ser utilizada. Conforme exemplo abaixo
+		
+		
+		// Exemplo estrutural 
+		
+				// switch ( expressão/variável ) {
+				// case valor1:
+				// 		comando1
+				// 		comando2
+				// 		break;  ----------->     No uso do switch o "BREAK" ao final de cada operação é obrigatório.
+				// case valor2:
+				// 		comando3
+				// 		comando4
+				// 		break;
+				// 
+				// default:      ----------|->   Default funciona como estabelecimento de valor padrão, caso todas as verificações
+				// 		comando5           |-->   de case tenham falhado. OU SEJA, qualquer valor, diferente dos valores padrão,
+				// 		comando6           |-->   estabelecido anterior ao default, será incorreto, ou invalido, conforme mensagem
+				// 		break;             |-->   usada no exemplo prático.
+				// 
+				// }
+		
+		
+		// EXEMPLO PRÁTICO
+		
+		// Fazer um programa para ler um valor inteiro de 1 a 7 representando um dia da semana ( sendo 1= domingo, 2= segunda e 
+		// assim por diante). Escreva na tela o dia da semana correspondente.
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o número do dia da semana");
+		int x = sc.nextInt();
+		String dia;
+		
+		switch (x) {                     // O (x) é o valor da expressão 
+		case 1:
+			dia = "Domingo";
+			break;                       
+		case 2:
+			dia = "Segunda";
+			break;
+		case 3:
+			dia = "Terça";
+			break;
+		case 4:
+			dia = "Quarta";
+			break;
+		case 5:
+			dia = "Quinta";
+			break;
+		case 6:
+			dia = "Sexta";
+			break;
+		case 7:
+			dia = "Sabado";
+			break;
+		default:                           
+			dia = "Valor inválido";        	
+			break;                             
+		}                                       
+		
+		System.out.println("Dia da semana: " + dia);
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,28 @@
+package _02_Estruturas_Condicionais;
+
+import java.util.Scanner
+
+public class _05_Switch_case {
+
+	public static void main(String[] args) {
+		
+		// A estrutura switch-case é usada quando se tem várias opções de fluxo a serem tratadas com base no valor de uma variável,
+		// ao invés de várias estruturas if-else encadeadas.
+		
+		
+		
+		// EXEMPLO PRÁTICO
+		
+		// Fazer um programa para ler um valor inteiro de 1 a 7 representando um dia da semana ( sendo 1= domingo, 2= segunda e 
+		// assim por diante). Escreva na tela o dia da semana correspondente.
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x = sc.nextInt();
+		String dia;
+		
+		
+	}
+
+}
