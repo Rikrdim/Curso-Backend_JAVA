@@ -76,7 +76,9 @@ public class Exerc_if_Else_part2 {
 				
 				 System.out.println("**********");
 				 
-				
+				 
+				 
+				 //
 		
 		sc.close();
 		

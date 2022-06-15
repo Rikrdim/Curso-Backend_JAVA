@@ -1,0 +1,39 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class teste {
+
+	public static void main(String[] args) {
+		
+		
+		
+		// Escreva um programa que verifique a validade de uma senha fornecida pelo usuário. A senha válida é o nº 1234. Devem ser
+		// impressas a seguinte mensagem: ACESSO PERMITIDO, caso a senha seja válida e ACESSO NEGADO, caso não válida
+		
+		
+		
+		
+		int senha = 1234;
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("DIGITE A SENHA");
+		senha = sc.nextInt();
+		
+		
+		if ( senha == senha ) {
+			System.out.println("ACESSO PERMITIDO");
+		}
+		else {
+			System.out.println("ACESSO NEGADO");
+		}
+		
+		sc.close();
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,115 @@
+package _01_Primeiros_conhecimentos;
+
+import java.util.Scanner;
+
+public class _03_Entrada_de_dados {
+
+	public static void main(String[] args) {
+		
+		// OBSERVAÇÃO MASTER: Para fazer o System.out.println(); de forma mais eficiente, digita:
+		
+		//Sysout e aperta Ctlr + barra de espaço que o compilador auto completa. 
+		
+		
+		
+//====================================================================================================================
+	
+		//Para ser feito a entrada de dados, é necessário criar um objeto do tipo "Scanner", da forma abaixo:
+		
+		
+						//------   Scanner sc = new Scanner(System.in);   -----------------
+		
+		
+//ONDE: sc = variável  | Scanner = tipo de variável pra fazer a entrada de dados  |  = new Scanner(System.in); é a forma padrão
+	//	                                                                          | pra associar o objeto ao teclado
+		
+		
+		// Para funcionar, é preciso fazer a importação do Scanner, pro sistema entender como entrada de dados da forma abaixo:
+		
+						//------   import java.util.Scanner;   -----------------
+		
+		
+		// Bem como ao final do uso no cód. faz-se o fechamento dessa variável, quando não precisar mais. Da forma abaixo:
+		
+		
+								//------  sc.close()  -----------------
+		
+//ONDE: sc = variável  | .close() É uma função que vai desalocar o recurso criado
+		
+		
+		//Exemplo prático:
+		
+		
+		Scanner sc = new Scanner(System.in);    	 // Objeto de leitura pelo console ( interação direta )
+		
+		String x;                                	 // Tipo de variável com a variável
+		
+		x = sc.next();                          	 // Variável recebendo a interação da leitura do scanner com o que foi digitado
+														// no console
+		System.out.println("Você digitou " + x); 	 // Resposta interativa do console
+		
+		sc.close();                        			 // Função de encerramento do objeto.
+		
+		
+		
+	// O exemplo prático acima é a forma como o console lê a entrada de dados do tipo String, porém tem a leitura como Int e Double 
+	// também. 
+		
+		
+		// Com o tipo Int: ::::::::::::::::::::::::::::::::::::::::::
+		
+			// Scanner sc = new Scanner(System.in);
+		
+			// Int x;
+		
+			// x = sc.nextInt();  
+		
+			// System.out.println("Você digitou " + x);
+		
+			// sc.close(); 
+		
+//**********************************************************************************************************
+		
+		// Com o tipo Double: ::::::::::::::::::::::::::::::::::::::::::		
+		
+		
+		// Scanner sc = new Scanner(System.in);
+		
+		// Int x;
+	
+		// x = sc.nextDouble();  
+	
+		// System.out.println("Você digitou " + x);
+	
+		// sc.close(); 
+		
+		
+//**********************************************************************************************************
+		
+				// Com vários tipos de variável: ::::::::::::::::::::::::::::::::::::::::::
+		
+		
+		// Scanner sc = new Scanner(System.in);
+		
+		// String x;
+		// Int y;
+		// Double z;
+	
+		// x = sc.next();  
+		// y = sc.nextInt();
+		// z = sc.nextDouble();
+		
+		// System.out.println("Dados digitados");
+		// System.out.println(x);
+		// System.out.println(y);
+		// System.out.println(z);
+	
+		// sc.close(); 
+		
+		
+		
+		
+		
+	}
+
+}

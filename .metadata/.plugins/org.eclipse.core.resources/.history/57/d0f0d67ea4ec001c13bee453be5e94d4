@@ -33,18 +33,20 @@ public class _06_Ternário {
 		// impressas a seguinte mensagem: ACESSO PERMITIDO, caso a senha seja válida e ACESSO NEGADO, caso não válida
 		
 		
-				
-		 int senha;
+		// import java.util.Scanner
 		
-		 Scanner sc = new Scanner(System.in);
+		
+		// int senha;
+		
+		// Scanner sc = new Scanner(System.in);
 
-		 System.out.println("DIGITE A SENHA");
-		 senha = sc.nextInt();
+		//System.out.println("DIGITE A SENHA");
+		// senha = sc.nextInt();
 		
-		 System.out.println((senha == 1234) ? "ACESSO PERMITIDO" : "ACESSO NEGADO" );
+		// System.out.println((senha == 1234) ? "ACESSO PERMITIDO" : "ACESSO NEGADO" );
 			
 		
-		 sc.close();
+		// sc.close();
 
 	}
 

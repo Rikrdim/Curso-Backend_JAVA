@@ -57,26 +57,6 @@ public class Exerc_if_Else_part2 {
 				}
 			
 				System.out.println("**********");
-				
-				
-				// Usando TERNÁRIO escreva um programa que verifique a validade de uma senha fornecida pelo usuário. A senha válida
-				// é o número 1234. Devem ser impressas as seguintes mensagens: 
-				// ACESSO PERMITIDO caso a senha seja válida. 
-				// ACESSO NEGADO caso a senha seja inválida
-
-				
-				
-				int senha;
-				
-				 System.out.println("DIGITE A SENHA");
-				 senha = sc.nextInt();
-				
-				 System.out.println((senha == 1234) ? "ACESSO PERMITIDO" : "ACESSO NEGADO" );
-					
-				
-				 System.out.println("**********");
-				 
-				
 		
 		sc.close();
 		

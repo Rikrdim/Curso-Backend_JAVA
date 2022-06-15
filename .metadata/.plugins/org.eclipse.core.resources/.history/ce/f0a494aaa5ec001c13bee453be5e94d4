@@ -74,9 +74,7 @@ public class Exerc_if_Else_part2 {
 				 System.out.println((senha == 1234) ? "ACESSO PERMITIDO" : "ACESSO NEGADO" );
 					
 				
-				 System.out.println("**********");
-				 
-				
+				 sc.close();
 		
 		sc.close();
 		

@@ -68,15 +68,15 @@ public class Exerc_if_Else_part2 {
 				
 				int senha;
 				
+				 Scanner sc = new Scanner(System.in);
+
 				 System.out.println("DIGITE A SENHA");
 				 senha = sc.nextInt();
 				
 				 System.out.println((senha == 1234) ? "ACESSO PERMITIDO" : "ACESSO NEGADO" );
 					
 				
-				 System.out.println("**********");
-				 
-				
+				 sc.close();
 		
 		sc.close();
 		
