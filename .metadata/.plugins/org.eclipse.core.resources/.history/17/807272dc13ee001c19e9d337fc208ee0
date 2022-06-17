@@ -1,0 +1,20 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class teste {
+
+	public static void main(String[] args) {
+		
+		
+		// Escreva um aplicativo em Java mostra todos os números ímpares de 1 até 100.
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		sc.close();
+
+	}
+
+}

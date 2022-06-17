@@ -73,19 +73,6 @@ public class Exerc_While {
 		System.out.println("Gasolina: " + gasolina);
 		System.out.println("Diesel: " + diesel);
 		
-		
-		System.out.println("******************************************************");
-		
-		
-// *******************************************************************************************************************
-		
-		
-		// Escreva um aplicativo em Java mostra todos os números ímpares de 1 até 100.
-		
-		
-		
-		
-		
 		sc.close();
 	}
 
