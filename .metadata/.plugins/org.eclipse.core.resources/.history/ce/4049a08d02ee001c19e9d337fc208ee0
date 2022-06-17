@@ -1,0 +1,10 @@
+package _03_Estruturas_repetitivas;
+
+public class While_ou_enquanto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

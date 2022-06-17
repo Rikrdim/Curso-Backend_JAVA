@@ -1,0 +1,16 @@
+package _03_Estruturas_repetitivas;
+
+public class _01_Utilizando_o_DEBUG {
+
+	public static void main(String[] args) {
+
+
+		// O DEBUG é uma ferramenta que facilita a investigação de erros no código. Apontando exatamente o que acontece linha a linha
+
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package _02_Estruturas_Condicionais;
+
+public class _07_Escopo_e_inicializacao {
+
+	public static void main(String[] args) {
+
+
+		//
+
+	}
+
+}

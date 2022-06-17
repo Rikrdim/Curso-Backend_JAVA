@@ -1,0 +1,71 @@
+package _03_Estruturas_repetitivas;
+
+import java.util.Scanner;
+
+public class While_ou_enquanto {
+
+	public static void main(String[] args) {
+
+
+		// O WHILE ( ou Enquanto) é uma estrutura de controle que repete um bloco de comandos enquanto uma condição é verdadeira.
+		
+		// QUANDO USAR: Quando não se sabe previamente a quantidade de repetições que será realizada.
+		
+		// Esta estrutura é parecida com o IF, mas difere que ela vai executar o bloco de comando e voltar pra condição WHILE.
+		
+		
+		// SINTAXE                                       REGRA
+		
+		// while ( condição ) {                          V(verdadeiro): Executa e volta
+		//		comando1							     F(falso):      pula fora
+		//		comando2
+		// }
+		
+		// Ou seja, enquanto a condição do WHILE for verdadeira, a leitura do bloco de comandos, sempre volta a ler a condição WHILE
+		//			caso a condição do WHILE passe a ser falsa na leitura do bloco de comandos, esta condição irá parar de ser lida
+		//				e vai avançar pra linha seguinte, fora desta condição WHILE. 
+		
+		
+		//EXEMPLO PRÁTICO
+		
+		// Fazer um programa que leia os números inteiros até que o ZERO (0) seja lido. E ao final, mostra a soma dos números lidos.
+		
+		// COMO FAZER comentado:
+		
+		// import java.util.Scanner;
+		//
+		// public class main {
+		// 		public static void main(String[] args) {
+		//
+		//			Scanner sc = new Scanner(System.in);
+		//			
+		//			int x = sc.nextInt();
+		//
+		//			int soma = 0;				1		OU SEJA1: A criação da variável soma recebendo 0 é o parâmetro de iniciação do calculo. E o 0 é o elemento neutro
+		//			while( x != 0 ) {           2       OU SEJA2: Enquanto o x for diferente de 0, a leitura do bloco de comandos sempre volta a ler a condição WHILE 
+		//		        soma = soma + x;        3              2: Sempre que passar pelo WHILE e ler que o X é diferente de 0 significa que foi digitado o N° e este N° vai entrar na soma    	
+		//				x = sc.nextInt();				OU SEJA3: Dentro da condição WHILE e antes da leitura da variável parâmetro é necessário ter a expressão de soma dos números diferentes de 0
+		//
+		//			}
+		//			System.out.println(soma);
+		//
+		//			sc.close();
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x = nextInt();
+		
+		int soma = 0;
+		while ( x != 0) {
+			soma = soma + x;
+			x = sc.nextInt();
+		}
+		System.out.println(soma);
+		
+		sc.close();
+		
+
+	}
+
+}
