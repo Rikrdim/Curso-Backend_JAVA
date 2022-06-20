@@ -1,0 +1,27 @@
+package _01_Primeiros_conhecimentos;
+
+public class _05_Funcoes {
+
+	public static void main(String[] args) {
+		
+	/*
+		As funções representam um processamento que possuem um significado
+		
+			* Math.sqrt(double)  		 - Calcular raiz quadrada de um valor  
+			* System.out.println(String) - Função responsável por mostrar alguma coisa na tela
+			 
+			 [ Função: Math.sqrt  |  Argumento: double]
+			 [ Função: System.out.println  |  Argumento: String ]
+	*/
+
+		//EXEMPLO PRÁTICO
+		
+		double x = Math.sqrt(25);
+				
+		System.out.println(x);
+
+
+
+	}
+
+}

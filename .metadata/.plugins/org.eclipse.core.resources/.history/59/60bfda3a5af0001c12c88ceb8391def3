@@ -1,0 +1,54 @@
+package _01_Primeiros_conhecimentos;
+
+public class _04_Funcoes_para_String {
+
+	public static void main(String[] args) {
+		
+		
+		// Checklist
+		
+		//  	FUNÇÃO PARA:
+		
+		// * Formatar : toLowerCase();  [ Transformar para minúsculo ]
+		//			  :	toUpperCase();  [ Transformar para maiúsculo ]
+		//			  : trim();         [ Remover espaços ]
+		//
+		// * Recortar : substring(inicio)       [ Recorte da substring no inicio ]
+		//			  : substring(inicio, fim)  [ Recorte da substring no inicio e fim ]
+		//
+		// * Substituir : Replace(char,char)      [ Substituir caractere ]
+		//				: Replace(string,string)  [ Substituir string ]
+		//
+		// * Buscar : IndexOf      [ Buscar a posição ]
+		//			: LastIndexOf  [ Buscar a posição ]
+		//
+		// * str.Split(" ")  [ Recortar string com base no separador que será definido dentro das aspas ]
+		//
+		
+		
+		// EXEMPLO PRÁTICO FORMATAR
+		
+		// Transformar para minúsculo
+			String original = "abcde FGHI ABC abc DEFG";
+			String s01 = original.toLowerCase();
+			
+			System.out.println("Original: " + original);
+			System.out.println("toLowercase " + s01);
+			
+			System.out.println("***************************************************");
+			
+				
+		// Transformar para minúsculo
+			String original2 = "abcde FGHI ABC abc DEFG";
+			String s02 = original2.toUpperCase();
+						
+			System.out.println("Original: " + original);
+			System.out.println("toUpperCase " + s02);
+				
+				
+				
+				
+				
+	}
+
+}

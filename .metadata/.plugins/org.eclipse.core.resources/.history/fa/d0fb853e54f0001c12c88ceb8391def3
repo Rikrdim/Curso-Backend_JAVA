@@ -1,0 +1,55 @@
+package _03_Estruturas_repetitivas;
+
+import java.util.Scanner;
+import java.util.Locale;
+
+public class _04_Do_While_ou_façaEnquanto {
+
+	public static void main(String[] args) {
+		
+		
+		// A estrutura Do-while ou "faça Enquanto" é a menos utilizada das estruturas repetitivas, mas em alguns casos é a que se 
+		// encaixa melhor ao problema.
+		
+		// O bloco de comandos executa pelo menos 1x, pois a condição é verificada no final.
+		
+		
+		// 				SINTAXE										REGRA [ condição V = verdadeiro | condição F = falso ]
+		
+		//       do {												V: Volta
+		//			comando1										F: Pula fora
+		//			comando2
+		//
+		// 		} while( condição );
+		
+		
+		
+		// EXEMPLO PRÁTICO
+		
+		// Fazer um programa para ler a temperatura em Celsius e mostrar o equivalente em Fahrenheit. Perguntar se o usuário quer 
+		// repetir (s/n). Caso o usuário digite "s", repetir o programa.
+		
+		//FORMULA:      9C
+		//		   F =  --  + 32
+		//               5
+		
+		// EXEMPLO: Digite a temperatura em Celsius: 30.0
+		//			Equivalente em fahrenheit: 86.0
+		//			Deseja repetir (s/n)? s
+		//          .... [ repete o que está acima ]
+		
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.print("Digite a temperatura em Celsius: ");
+		
+		double C = sc.nextDouble();
+		
+		
+		sc.close();
+
+	}
+
+}

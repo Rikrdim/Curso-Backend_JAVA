@@ -1,0 +1,60 @@
+package _01_Primeiros_conhecimentos;
+
+public class _04_Funcoes_para_String {
+
+	public static void main(String[] args) {
+		
+		
+		// Checklist
+		
+		//  	FUNÇÃO PARA:
+		
+		// * Formatar : toLowerCase();  [ Transformar para minúsculo ]
+		//			  :	toUpperCase();  [ Transformar para maiúsculo ]
+		//			  : trim();         [ Remover espaços ]
+		//
+		// * Recortar : substring(inicio)       [ Recorte da substring no inicio ]
+		//			  : substring(inicio, fim)  [ Recorte da substring no inicio e fim ]
+		//
+		// * Substituir : Replace(char,char)      [ Substituir caractere ]
+		//				: Replace(string,string)  [ Substituir string ]
+		//
+		// * Buscar : IndexOf      [ Buscar a posição ]
+		//			: LastIndexOf  [ Buscar a posição ]
+		//
+		// * str.Split(" ")  [ Recortar string com base no separador que será definido dentro das aspas ]
+		//
+		
+		
+		// EXEMPLO PRÁTICO
+		
+			String original = "abcde FGHI ABC abc DEFG ";
+			String s01 = original.toLowerCase();
+			String s02 = original.toUpperCase();
+			String s03 = original.trim();
+			String s04 = original.substring(2);   // Função para pegar do segundo caractere em diante, pois foi definido (2)
+			String s05 = original.substring(2, 9);   // Função para pegar do segundo caractere até o 9, pois foi definido (2, 9)
+			String s06 = original.replace('a', 'x');   // Função para substituir uma coisa por outra, no caso o A pelo X
+			String s07 = original.replace("abc", "xy");   // Função para substituir uma coisa por outra, no caso o A pelo X
+			
+			
+			System.out.println("Original: -" + original + "-");
+			System.out.println("toLowercase: -" + s01 + "-");
+			System.out.println("toUpperCase: -" + s02 + "-");
+			System.out.println("Trim: -" + s03 + "-");	
+			System.out.println("Substring início: -" + s04 + "-");
+			System.out.println("Substring início e fim: -" + s05 + "-");
+			System.out.println("Replace('a', 'x'): -" + s06 + "-");
+			System.out.println("Replace('abc', 'xy'): -" + s07 + "-");
+			
+			System.out.println("***************************************************");
+			
+				
+		
+				
+				
+				
+				
+	}
+
+}

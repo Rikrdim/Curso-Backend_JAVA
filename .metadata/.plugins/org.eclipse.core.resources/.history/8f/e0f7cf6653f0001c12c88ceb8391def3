@@ -1,0 +1,24 @@
+package _03_Estruturas_repetitivas;
+
+public class _04_Do_While_ou_façaEnquanto {
+
+	public static void main(String[] args) {
+		
+		
+		// A estrutura Do-while ou "faça Enquanto" é a menos utilizada das estruturas repetitivas, mas em alguns casos é a que se 
+		// encaixa melhor ao problema.
+		
+		// O bloco de comandos executa pelo menos 1x, pois a condição é verificada no final.
+		
+		
+		// 				SINTAXE										REGRA [ condição V = verdadeiro | condição F = falso ]
+		
+		//       do {												V: Volta
+		//			comando1										F: Pula fora
+		//			comando2
+		//
+		// 		} while( condição );
+
+	}
+
+}
